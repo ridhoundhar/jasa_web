@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background: linear-gradient(to top, rgba(0,0,0, 0.95), rgba(0,0,0,0.848), rgba(0,0,0,0)),url('assets/image/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh;
+    width: auto;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+.logo {
+    height: 50px;
+}
+
+.logo img {
+   height: 100%;
+}
+
+/* navbar */
+.container .navbar {
+    width: 500px;
+    margin: 20% 425px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.navbar ul li {
+    display: inline-flex;
+    border-radius: 50px;
+    justify-content: center;
+    border: 1px solid rgb(51, 185, 215);
+    width: 60px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-style: italic;
+}
+.navbar a:hover {
+    color: rgb(51, 185, 215);
+    transition: all 0.3s ease-in-out;
+}
+
+/* conten  */
+.content {
+    margin: 200px auto;
+}
+.content h1 {
+    font-size: 55px;
+    color: #ffffff;
+}
+.content h2 {
+    color: aqua;
+    font-size: 25px;
+}
+span {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p, a {
+    margin: 0;
+    color: rgb(51, 185, 215);
+    text-decoration: none;
+  }
